@@ -52,4 +52,10 @@
 	text-transform: uppercase;
 	padding-bottom: 30px;
 }
-
+.botao_nu{
+	background-color: #820ad1;
+	color: #fff;
+}
+.mg_top{
+	margin-top: 10px;
+}

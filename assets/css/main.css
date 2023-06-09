@@ -17,7 +17,7 @@ body
 	background: #fff ;
 }
 .purple{
-	background: #4a148c;
+	background: #F5C1C5;
 }
 .section-wrapper{
 	padding-top: 90px;
@@ -65,8 +65,8 @@ body
 }
 			/*navbar*/
 .navbar-default .navbar-brand{
-	border: 1px solid #fff;
-	color: #fff;
+	border: 1px solid #313131;
+	color: #313131;
 	font-size: 30px;
 	padding: 10px 20px;
 	height: auto;
@@ -74,10 +74,10 @@ body
 	letter-spacing: 5px;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
-	color: #fff;
+	color: #313131;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #313131;
 }
 .navbar-fixed-top .navbar-toggle .icon-bar {
     background-color: #313131;
@@ -85,13 +85,16 @@ body
 .navbar-fixed-top .navbar-toggle{
 	border-color: #313131;
 }
+.navbar-default .navbar-toggle {
+    border-color: #313131;
+}
 .navbar-default {
-    background-color: transparent;
+    background-color: #eaeaea;
     border-color: transparent;
-    padding-top: 50px;
+    padding: 10px;
 }
 .navbar-default .navbar-nav>li>a{
-	color: #fff;
+	color: #313131;
     /*text-transform: uppercase;*/
     padding-right: 20px;
     padding-left: 20px;
@@ -104,23 +107,23 @@ body
 	border-radius: 0px;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	border: 1px solid rgba(255, 255, 255, 0.6);
-	color: #fff;
+	border: 1px solid rgb(49 49 49);
+	color: #313131;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-	color: #fff;
+	color: #313131;
 }
 .navbar-nav>li>a {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-	background: transparent;
+	background: #eaeaea;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    color: #fff;
+    border: 1px solid rgb(49 49 49);
+    color: #313131;
 }
 		/*Home*/
 .header-wrapper{
@@ -282,7 +285,7 @@ body
 ||				8. Note
 ==================================================*/
 .note{
-	color: #dadada;
+	color: #313131;
 }
 .quote{
 	font-style: italic;
