@@ -389,8 +389,9 @@ a .rss:hover{
 ==================================================*/
 /*Testimonial*/
 .testimonial{
-	background: url('../images/testimonial.png');
+	background: url('../images/pedra.jpg');
 	color: #fff;
+	background-position: center;
 }
 .testimonial .section-title{
 	color: #fff;
@@ -422,14 +423,7 @@ a .rss:hover{
 	background: transparent;
 }
 /*Add*/
-.add .owl-prev:before
-{
-    content: url("../images/bleft.png");
-}
-.add .owl-next:before
-{
-    content: url("../images/bright.png");
-}
+
 .owl-next
 {
 	right: -90px;
