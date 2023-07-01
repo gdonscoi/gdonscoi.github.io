@@ -1,5 +1,5 @@
 .cerimonia{
-	background: #fff;
+	background: #ededed;
 }
 .cerimonia-detail{
 	font-size: 18px;
@@ -19,7 +19,7 @@
 }
 
 .festa{
-	background: #ededed;
+	background: #fff;
 }
 .festa-detail{
 	font-size: 18px;
@@ -48,5 +48,26 @@
 	color: #a3a2a2;
 	font-size: 11px;
 	text-transform: uppercase;
-	padding-bottom: 30px;
+}
+
+.team{
+	background: #fff;
+}
+.team-item{
+	background: #f3f3f3;
+
+	text-align: center;
+}
+.team-img{
+	width: 100%;
+}
+.team-item-name{
+	font-size: 14px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+}
+.team-item-id{
+	color: #a3a2a2;
+	font-size: 11px;
+	text-transform: uppercase;
 }
