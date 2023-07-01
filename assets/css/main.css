@@ -4,6 +4,13 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
+.col-centered{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
 body
 {
 	font-family: 'Roboto', 'Open-Sans', sans-serif;
@@ -481,6 +488,12 @@ a .rss:hover{
 	.quote{
 		padding: 0 15px;
 	}
+
+	.col-centered {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
 } 
 @media (max-width: 480px){
 	.header-table{
@@ -490,5 +503,10 @@ a .rss:hover{
 	.presentes {
 		margin-top: 80px;
 	}
-}
 
+	.col-centered {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+}
